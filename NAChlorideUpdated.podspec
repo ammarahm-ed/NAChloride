@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "NAChlorideUpdated"
-  s.version      = "2.3.1"
+  s.version      = "2.3.0"
   s.summary      = "Objective-C library for libsodium (NaCl)"
   s.homepage     = "https://github.com/ammarahm-ed/NAChloride"
   s.license      = { :type => "MIT" }
   s.author       = { "Gabriel Handford" => "gabrielh@gmail.com" }
-  s.source       = { :git => "https://github.com/ammarahm-ed/NAChloride.git" }
+  s.source       = { :git => "https://github.com/ammarahm-ed/NAChloride.git", :tag => s.version.to_s }
   s.dependency 'libsodium'
   s.requires_arc = true
 
