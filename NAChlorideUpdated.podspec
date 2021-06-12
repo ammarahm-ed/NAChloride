@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/ammarahm-ed/NAChloride"
   s.license      = { :type => "MIT" }
   s.author       = { "Gabriel Handford" => "gabrielh@gmail.com" }
-  s.source       = { :git => "https://github.com/ammarahm-ed/NAChloride.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/ammarahm-ed/NAChloride.git" }
   s.dependency 'libsodium'
   s.requires_arc = true
 
